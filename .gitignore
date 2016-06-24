@@ -1,0 +1,6 @@
+/.idea/
+/target/
+/MavenExample/
+/AntExample/
+/out/
+*.iml

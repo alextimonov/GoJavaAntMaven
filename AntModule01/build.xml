@@ -1,0 +1,40 @@
+
+<project>
+    <property name="src" location="src" />
+    <property name="build" location="build" />
+    <property name="dist" location="dist" />
+    <property name="lib" location="lib" />
+
+
+    <target name = "init" description = "init project structure">
+        <mkdir dir = "${build}"/>
+        <mkdir dir = "${dist}"/>
+    </target>
+
+
+    <target name = "compile" depends = "init">
+        <javac srcdir = "${src}" destdir = "${build}" source = "1.8" target = "1.8">
+        </javac>
+
+    </target>
+
+
+    <target name = "dist" depends= "compile">
+        <jar destfile = "${dist}/AntModule01.jar">
+            <fileset dir = "${build}" />
+            <manifest>
+                <attribute name = "Main-Class" value = "ua/goit/timonov/antMaven/controller/SwingMain"/>
+            </manifest>
+        </jar>
+
+    </target>
+
+
+
+    <target name = "clean">
+        <delete dir = "${build}"/>
+        <delete dir = "${dist}"/>
+    </target>
+
+
+</project>

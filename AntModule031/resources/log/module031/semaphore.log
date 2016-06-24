@@ -1,0 +1,238 @@
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.SemaphoreMain initializeSemaphore
+INFO: Semaphore is initialized. There are 10 available permits
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-1 received 2 permits, 8 permits are available now
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-10 received 5 permits, 3 permits are available now
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-3 received 1 permit,  2 permits are available now
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-8 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-1 released 2 permits, 2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-20 received 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-14 received 1 permit,  0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-3 released 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-10 released 5 permits, 6 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-12 received 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-5 received 1 permit,  2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-13 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-8 released 2 permits, 2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-6 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-20 released 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-14 released 1 permit,  2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-4 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-12 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-11 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-5 released 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-13 released 2 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-16 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-6 released 2 permits, 2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-4 released 2 permits, 4 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-7 received 4 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-11 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-19 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-16 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-9 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-7 released 4 permits, 4 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-15 received 4 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-19 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-9 released 3 permits, 6 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-2 received 5 permits, 1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-15 released 4 permits, 5 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-18 received 5 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-2 released 5 permits, 5 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-17 received 5 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-18 released 5 permits, 5 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-17 released 5 permits, 10 permits are available now
+M ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-16 is trying to get 3 permits
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-11 is trying to get 3 permits
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-18 is trying to get 5 permits
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-8 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-8 has got 2 permits
+июн 23, 2016 5:31:06 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-17 is trying to get 5 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-1 released 2 permits, 2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-1 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-20 received 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-20 has got one permit
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-14 received 1 permit,  0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-14 has got one permit
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-3 released 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-3 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-10 released 5 permits, 6 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-10 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-12 received 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-12 has got 3 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-5 received 1 permit,  2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-5 has got one permit
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-13 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-13 has got 2 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-8 released 2 permits, 2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-8 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-6 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-6 has got 2 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-20 released 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-20 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-14 released 1 permit,  2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-14 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-4 received 2 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-4 has got 2 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-12 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-12 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-11 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-11 has got 3 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-5 released 1 permit,  1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-5 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-13 released 2 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-13 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-16 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-16 has got 3 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-6 released 2 permits, 2 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-6 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-4 released 2 permits, 4 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-4 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-7 received 4 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-7 has got 4 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-11 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-11 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-19 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-19 has got 3 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-16 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-16 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-9 received 3 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-9 has got 3 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-7 released 4 permits, 4 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-7 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-15 received 4 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-15 has got 4 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-19 released 3 permits, 3 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-19 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-9 released 3 permits, 6 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-2 received 5 permits, 1 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-2 has got 5 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-9 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-15 released 4 permits, 5 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-15 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-18 received 5 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-18 has got 5 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-2 released 5 permits, 5 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-2 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore acquire
+INFO: Thread Thread-17 received 5 permits, 0 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker receiveSemaphorePermits
+INFO: 					 Thread Thread-17 has got 5 permits
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-18 released 5 permits, 5 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-18 stops working
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.SimpleSemaphore release
+INFO: Thread Thread-17 released 5 permits, 10 permits are available now
+июн 23, 2016 5:31:07 PM ua.goit.timonov.antMaven.module031.Worker releaseSemaphorePermits
+INFO: 					 Thread Thread-17 stops working

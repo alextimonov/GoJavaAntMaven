@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Suite #1">
+    <test name = "Integer Task Test">
+        <classes>
+            <class name = "ua.goit.timonov.antMaven.module02.IntTaskTest"/>
+            <class name = "ua.goit.timonov.antMaven.module02.LongTaskTest"/>
+            <class name = "ua.goit.timonov.antMaven.module02.NumberExecutorTest"/>
+            <class name = "ua.goit.timonov.antMaven.module02.NumberValidatorTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+<suite name = "Suite #1">
+    <test name = "Integer Task Test">
+        <classes>
+            <class name = "ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite #1" duration-ms="758" started-at="2016-06-23T15:15:58Z" finished-at="2016-06-23T15:15:59Z">
+    <groups>
+    </groups>
+    <test name="WorkerTest" duration-ms="758" started-at="2016-06-23T15:15:58Z" finished-at="2016-06-23T15:15:59Z">
+      <class name="ua.goit.timonov.antMaven.module031.WorkerTest">
+        <test-method status="PASS" signature="testReceiveSemaphorePermitsNormal_1()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testReceiveSemaphorePermitsNormal_1" duration-ms="108" started-at="2016-06-23T18:15:58Z" finished-at="2016-06-23T18:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReceiveSemaphorePermitsNormal_1 -->
+        <test-method status="PASS" signature="testReceiveSemaphorePermitsNormal_2()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testReceiveSemaphorePermitsNormal_2" duration-ms="5" started-at="2016-06-23T18:15:58Z" finished-at="2016-06-23T18:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReceiveSemaphorePermitsNormal_2 -->
+        <test-method status="PASS" signature="testReceiveSemaphorePermitsNormal_3()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testReceiveSemaphorePermitsNormal_3" duration-ms="4" started-at="2016-06-23T18:15:58Z" finished-at="2016-06-23T18:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReceiveSemaphorePermitsNormal_3 -->
+        <test-method status="PASS" signature="testReleasePermitsNormal_1()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testReleasePermitsNormal_1" duration-ms="12" started-at="2016-06-23T18:15:58Z" finished-at="2016-06-23T18:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReleasePermitsNormal_1 -->
+        <test-method status="PASS" signature="testReleaseSemaphorePermitsNormal_2()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testReleaseSemaphorePermitsNormal_2" duration-ms="24" started-at="2016-06-23T18:15:58Z" finished-at="2016-06-23T18:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReleaseSemaphorePermitsNormal_2 -->
+        <test-method status="PASS" signature="testReleaseSemaphorePermitsNormal_3()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testReleaseSemaphorePermitsNormal_3" duration-ms="13" started-at="2016-06-23T18:15:58Z" finished-at="2016-06-23T18:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReleaseSemaphorePermitsNormal_3 -->
+        <test-method status="PASS" signature="testRunNormal_1()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testRunNormal_1" duration-ms="232" started-at="2016-06-23T18:15:58Z" finished-at="2016-06-23T18:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRunNormal_1 -->
+        <test-method status="PASS" signature="testRunNormal_2()[pri:0, instance:ua.goit.timonov.antMaven.module031.WorkerTest@5b1d2887]" name="testRunNormal_2" duration-ms="323" started-at="2016-06-23T18:15:59Z" finished-at="2016-06-23T18:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRunNormal_2 -->
+      </class> <!-- ua.goit.timonov.antMaven.module031.WorkerTest -->
+    </test> <!-- WorkerTest -->
+  </suite> <!-- Suite #1 -->
+</testng-results>

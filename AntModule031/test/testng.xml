@@ -1,0 +1,10 @@
+
+
+
+<suite name = "Suite #1">
+    <test name = "WorkerTest">
+        <classes>
+            <class name = "ua.goit.timonov.antMaven.module031.WorkerTest"/>
+        </classes>
+    </test>
+</suite>

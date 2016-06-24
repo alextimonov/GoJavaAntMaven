@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_#1">
+              <span class="suite-name border-passed">Suite #1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_#1">
+                    <span>D:\Java Projects\GoITAntMaven\AntModule032\test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_#1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_#1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_#1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_#1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_#1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_#1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_#1" class="hide-methods passed suite-Suite_#1"> (hide)</a> <!-- hide-methods passed suite-Suite_#1 -->
+                      <a href="#" panel-name="suite-Suite_#1" class="show-methods passed suite-Suite_#1"> (show)</a> <!-- show-methods passed suite-Suite_#1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_#1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumBorder">testGetSquareSumBorder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumDivisionElementsOnThreads_1">testGetSquareSumDivisionElementsOnThreads_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumDivisionElementsOnThreads_2">testGetSquareSumDivisionElementsOnThreads_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumDivisionElementsOnThreads_3">testGetSquareSumDivisionElementsOnThreads_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumExpectedIllegalArgumentException_1">testGetSquareSumExpectedIllegalArgumentException_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumExpectedIllegalArgumentException_2">testGetSquareSumExpectedIllegalArgumentException_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumExpectedIllegalArgumentException_3">testGetSquareSumExpectedIllegalArgumentException_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumNormalBorder_1">testGetSquareSumNormalBorder_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumNormalBorder_2">testGetSquareSumNormalBorder_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumNormalSimple">testGetSquareSumNormalSimple</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumNormal_1">testGetSquareSumNormal_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_#1" title="ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest" hash-for-method="testGetSquareSumNormal_2">testGetSquareSumNormal_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_#1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_#1" class="panel Suite_#1">
+          <div class="suite-Suite_#1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumBorder">
+                  </a> <!-- testGetSquareSumBorder -->
+                  <span class="method-name">testGetSquareSumBorder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumDivisionElementsOnThreads_1">
+                  </a> <!-- testGetSquareSumDivisionElementsOnThreads_1 -->
+                  <span class="method-name">testGetSquareSumDivisionElementsOnThreads_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumDivisionElementsOnThreads_2">
+                  </a> <!-- testGetSquareSumDivisionElementsOnThreads_2 -->
+                  <span class="method-name">testGetSquareSumDivisionElementsOnThreads_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumDivisionElementsOnThreads_3">
+                  </a> <!-- testGetSquareSumDivisionElementsOnThreads_3 -->
+                  <span class="method-name">testGetSquareSumDivisionElementsOnThreads_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumExpectedIllegalArgumentException_1">
+                  </a> <!-- testGetSquareSumExpectedIllegalArgumentException_1 -->
+                  <span class="method-name">testGetSquareSumExpectedIllegalArgumentException_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumExpectedIllegalArgumentException_2">
+                  </a> <!-- testGetSquareSumExpectedIllegalArgumentException_2 -->
+                  <span class="method-name">testGetSquareSumExpectedIllegalArgumentException_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumExpectedIllegalArgumentException_3">
+                  </a> <!-- testGetSquareSumExpectedIllegalArgumentException_3 -->
+                  <span class="method-name">testGetSquareSumExpectedIllegalArgumentException_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumNormalBorder_1">
+                  </a> <!-- testGetSquareSumNormalBorder_1 -->
+                  <span class="method-name">testGetSquareSumNormalBorder_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumNormalBorder_2">
+                  </a> <!-- testGetSquareSumNormalBorder_2 -->
+                  <span class="method-name">testGetSquareSumNormalBorder_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumNormalSimple">
+                  </a> <!-- testGetSquareSumNormalSimple -->
+                  <span class="method-name">testGetSquareSumNormalSimple</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumNormal_1">
+                  </a> <!-- testGetSquareSumNormal_1 -->
+                  <span class="method-name">testGetSquareSumNormal_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSquareSumNormal_2">
+                  </a> <!-- testGetSquareSumNormal_2 -->
+                  <span class="method-name">testGetSquareSumNormal_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_#1-class-passed -->
+        </div> <!-- panel Suite_#1 -->
+        <div panel-name="test-xml-Suite_#1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Java Projects\GoITAntMaven\AntModule032\test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite #1&quot;&gt;
+  &lt;test name=&quot;Integer Task Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Integer Task Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite #1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_#1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite #1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Integer Task Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_#1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite #1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_#1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite #1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_#1');
+function tableData_Suite_#1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetSquareSumBorder')
+data.setCell(0, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(0, 3, 245);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetSquareSumDivisionElementsOnThreads_1')
+data.setCell(1, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(1, 3, 204);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetSquareSumNormalBorder_1')
+data.setCell(2, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(2, 3, 203);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testGetSquareSumDivisionElementsOnThreads_2')
+data.setCell(3, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(3, 3, 202);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetSquareSumDivisionElementsOnThreads_3')
+data.setCell(4, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(4, 3, 202);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetSquareSumNormalSimple')
+data.setCell(5, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(5, 3, 202);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetSquareSumNormal_1')
+data.setCell(6, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(6, 3, 201);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetSquareSumNormal_2')
+data.setCell(7, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(7, 3, 200);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetSquareSumNormalBorder_2')
+data.setCell(8, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(8, 3, 101);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetSquareSumExpectedIllegalArgumentException_1')
+data.setCell(9, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetSquareSumExpectedIllegalArgumentException_3')
+data.setCell(10, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetSquareSumExpectedIllegalArgumentException_2')
+data.setCell(11, 2, 'ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest')
+data.setCell(11, 3, 0);
+window.suiteTableData['Suite_#1']= { tableData: data, tableDiv: 'times-div-Suite_#1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Suite_#1">
+              </div> <!-- times-div-Suite_#1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_#1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite #1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_#1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_#1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ua.goit.timonov.antMaven.module032.SquareSumWithPhaserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumBorder</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumDivisionElementsOnThreads_1</span>
+                <span class="method-start">251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumDivisionElementsOnThreads_2</span>
+                <span class="method-start">457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumDivisionElementsOnThreads_3</span>
+                <span class="method-start">661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumExpectedIllegalArgumentException_1</span>
+                <span class="method-start">896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumExpectedIllegalArgumentException_2</span>
+                <span class="method-start">899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumExpectedIllegalArgumentException_3</span>
+                <span class="method-start">900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumNormalBorder_1</span>
+                <span class="method-start">901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumNormalBorder_2</span>
+                <span class="method-start">1105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumNormalSimple</span>
+                <span class="method-start">1206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumNormal_1</span>
+                <span class="method-start">1409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSquareSumNormal_2</span>
+                <span class="method-start">1611 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
